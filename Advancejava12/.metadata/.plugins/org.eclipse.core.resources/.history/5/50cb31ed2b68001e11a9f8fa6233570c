@@ -1,0 +1,9 @@
+package in.com.rays.MarksheeetBean;
+
+public class MarksheetModel{
+	
+	public void add(MarksheetBean) {
+		
+	}
+
+}

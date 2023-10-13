@@ -1,0 +1,13 @@
+package in.co.rays.user;
+
+public class TestUser {
+	public static void main(String[] args) throws Exception {
+		
+		testAdd();
+	}
+	  public static void testAdd() throws Exception{
+		  
+	  }
+}
+	 
+ 

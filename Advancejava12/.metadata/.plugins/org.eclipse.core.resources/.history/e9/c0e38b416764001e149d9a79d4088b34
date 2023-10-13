@@ -1,0 +1,38 @@
+package in.co.crud;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class TestAdd {
+public static void main(String[] args) throws Exception {
+//	
+//	
+//	Class.forName("com.mysql,cj.jdbc.Driver");
+//	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/suntech","root","root");
+//	Statement stmt = conn.createStatement();
+//	ResultSet rs = stmt.executeQuery("select * from emp");
+//
+//	while (rs.next()) {
+//		System.out.print(rs.getInt(1));
+//		System.out.print("\t" +rs.getString(2));
+//		System.out.println("\t" +rs.getBoolean(3));	
+//		
+//	}
+	add(9,"shubham",3000);
+}
+
+
+      private static void add(int id,String name,int salary) throws Exception {
+    	
+    	  Class.forName("com.mysql.cj.jdbc.Drive");
+    	  Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/suntech","root","root");
+    	  Statement stmt = conn.createStatement();
+    	  
+    	  int i = stmt.executeUpdate("insert into emp values("+ id + "," + name +"," + salary +")");
+    	  
+    	  System.out.println("Data inserted " + i );
+      }
+
+}

@@ -1,0 +1,15 @@
+package in.com.rays.marksheeet;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class MarksheetModel{
+	
+	public void add(MarksheetBean bean) throws Exception{
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection conn = DriverManager
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package in.co.rays.user;
+
+public class TestUser {
+	 
+	public static void testAdd() {
+	
+		testAdd();
+	}
+	
+	   
+		
+	}
+
+ 

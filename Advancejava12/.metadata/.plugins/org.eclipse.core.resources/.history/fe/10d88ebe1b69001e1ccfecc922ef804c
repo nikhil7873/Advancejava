@@ -1,0 +1,8 @@
+package in.com.rays.jdbc;
+
+public class TestJdbcDataSourse {
+
+	public static void main(String[] args) throws Exception {
+		
+	}
+}
